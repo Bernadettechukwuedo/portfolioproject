@@ -10,9 +10,17 @@ padding: 18px 30px;
 margin:  0 0 50px 0;
 
 }
+hr{
+    border:5px dashed #e2f7f6;
+    
+}
+#recipe{
+    color: #272142;
+}
 h3{
     font-size: 24px;
     line-height: 35px;
+    
     
 }
 h1{
@@ -21,31 +29,33 @@ h1{
 p{
     font-size: 28;
     line-height: 30px;
+    color: #272142;
 }
 #about{
     line-height: 300px;
+    color: #272142;
 }
 #bio{
     padding: 50px;
 }
-h3{
-    font-size: 24px;
-    
-}
 h4{
-    font-size:18px
+    font-size:18px;
+    color: #272142;
 }
 h2{
     font-size: 36;
+    color: #272142;
 }
 .part{
     font-size: 16;
     font-weight: 400;
     line-height: 30px;
+    color: #272142;
 }
 i{
     margin: 10px;
 }
+
 
 @media(max-width:900px){
     h1{
