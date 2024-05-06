@@ -62,6 +62,11 @@ i{
 h5{
     color:#662eed;
 }
+footer{
+    background:#f9f7fe;
+    padding:20px;
+}
+
 
 @media(max-width:900px){
     h1{
@@ -90,4 +95,11 @@ h5{
     i{
         font-size: 11px;
     }
+    #right{
+        font-size: 11px;
+    }
+    #contact-foot{
+        display:none;
+    }
+   
 }
