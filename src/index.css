@@ -54,8 +54,14 @@ h2{
 }
 i{
     margin: 10px;
+   
 }
-
+#contact-main{
+    font-size:24px;
+}
+h5{
+    color:#662eed;
+}
 
 @media(max-width:900px){
     h1{
@@ -72,5 +78,16 @@ i{
     }
     #about{
         line-height:100px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    #contact-main{
+        font-size:11px;
+        line-height: 0;
+        padding:0;
+    }
+    i{
+        font-size: 11px;
     }
 }
