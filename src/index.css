@@ -66,6 +66,9 @@ footer{
     background:#f9f7fe;
     padding:20px;
 }
+#img-recipe{
+    max-width:70%;
+}
 
 
 @media(max-width:900px){
@@ -79,7 +82,7 @@ footer{
         padding:0;
     }
     h4{
-        font-size:10px;
+        font-size:16px;
     }
     #about{
         line-height:100px;
@@ -88,12 +91,12 @@ footer{
         font-size: 12px;
     }
     #contact-main{
-        font-size:11px;
+        font-size:12px;
         line-height: 0;
         padding:0;
     }
     i{
-        font-size: 11px;
+        font-size: 12px;
     }
     #right{
         font-size: 11px;
@@ -101,5 +104,20 @@ footer{
     #contact-foot{
         display:none;
     }
+    #contact-info{
+        margin:0;
+    }
+    #img-recipe{
+        max-width:100%;
+        max-height:700px;
+        display:block;
+        margin:0 auto;
+    }
+    #fav-recipe{        
+        max-width:100%;
+        max-height:700px;
+        display:block;
+        margin:0 auto;}
+   
    
 }
